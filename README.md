@@ -13,9 +13,9 @@ ___
 
 Here are the steps you need to follow to install the dependencies.
 
-1.Download and extract the template from **Next.js Templates.**
+1.Clone repo, folk or download and extract to your directory.
 
-2.**cd** into the template directory then run this command to install all the dependencies
+2.**cd** into the directory then run this command to install all the dependencies
     
 ```bash
     npm install

@@ -55,7 +55,7 @@
 }
 
 .blog-details-docs {
-  @apply border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all  dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection;
+  @apply border border-white rounded-3xl p-7.5 xl:p-12.5 transition-all  dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection;
 }
 
 .blog-details p {
@@ -122,4 +122,8 @@ pre {
 
 .active-tab {
   @apply text-black dark:text-white dark:bg-blackho bg-stroke
+}
+
+.custom-font-size {
+  font-size: 16px; /* Adjust the font size as needed */
 }

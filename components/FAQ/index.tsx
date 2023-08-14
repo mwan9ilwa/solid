@@ -97,7 +97,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               className="animate_right md:w-3/5 lg:w-1/2"
             >
-              <div className="bg-white dark:bg-blacksection dark:border dark:border-strokedark shadow-solid-8 rounded-lg">
+              <div className="bg-[#e9edf0] dark:bg-blacksection dark:border dark:border-strokedark rounded-3xl">
                 {faqData.map((faq, key) => (
                   <FAQItem
                     key={key}

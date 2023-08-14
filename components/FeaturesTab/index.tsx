@@ -46,24 +46,24 @@ const FeaturesTab = () => {
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top border border-stroke dark:border-strokedark dark:bg-blacksection shadow-solid-5 dark:shadow-solid-6 bg-white rounded-[10px] flex flex-wrap md:flex-nowrap md:items-center justify-center lg:gap-7.5 xl:gap-12.5 mb-15 xl:mb-21.5"
+            className="animate_top border border-stroke dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 bg-[#e9edf0] rounded-3xl flex flex-wrap md:flex-nowrap md:items-center justify-center lg:gap-7.5 xl:gap-12.5 mb-15 xl:mb-21.5"
           >
             <div
               onClick={() => setCurrentTab("tabOne")}
               className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
                 currentTab === "tabOne"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
+                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-3xl before:rounded-3xl"
                   : ""
               }`}
             >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+              <div className="w-12.5 h-12.5 rounded-3xl border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
                   01
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Clean User Interface
+                  Explores the Unknown
                 </h5>
               </div>
             </div>
@@ -75,14 +75,14 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+              <div className="w-12.5 h-12.5 rounded-3xl border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
                   02
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Essential Business Pages
+                  Collaborates for Success
                 </h5>
               </div>
             </div>
@@ -94,14 +94,14 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+              <div className="w-12.5 h-12.5 rounded-3xl border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
                   03
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Fully Functional Integrations
+                  Champions Sustainability
                 </h5>
               </div>
             </div>

@@ -8,7 +8,7 @@ const CTA = () => {
     <>
       {/* <!-- ===== CTA Start ===== --> */}
       <section className="py-20 lg:py-25 xl:py-30 px-4 md:px-8 2xl:px-0 overflow-hidden">
-        <div className="mx-auto max-w-c-1390 px-7.5 md:px-12.5 xl:px-17.5 py-12.5 xl:py-0 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:bg-blacksection dark:stroke-strokedark">
+        <div className="mx-auto max-w-c-1390 px-7.5 md:px-12.5 xl:px-17.5 py-12.5 xl:py-0 rounded-3xl bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:bg-blacksection dark:stroke-strokedark">
           <div className="flex flex-wrap md:flex-nowrap md:items-center md:justify-between gap-8 md:gap-0">
             <motion.div
               variants={{
@@ -28,13 +28,11 @@ const CTA = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
+              <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-medium mb-4 w-11/12">
                 Join With Us Today & Increase Your Productivity
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                Contact us to get more information about who we are and what we do.
               </p>
             </motion.div>
             <motion.div
@@ -64,24 +62,23 @@ const CTA = () => {
                   className="hidden xl:block"
                 />
                 <a
-                  href="signup.html"
-                  className="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6 hover:opacity-90"
+                  href="mailto:mwangilwa23@gmail.com"
+                  className="inline-flex items-center gap-2.5 font-medium text-white dark:text-white bg-primary dark:bg-primary rounded-full py-3 px-6 hover:opacity-90"
                 >
-                  Sign up free
-                  <Image
-                    width={20}
-                    height={20}
-                    src="./images/icon/icon-arrow-dark.svg"
-                    alt="Arrow"
-                    className="dark:hidden"
-                  />
-                  <Image
-                    width={20}
-                    height={20}
-                    src="./images/icon/icon-arrow-light.svg"
-                    alt="Arrow"
-                    className="hidden dark:block"
-                  />
+                  Email us
+                  <svg
+                      className="fill-white"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
+                        fill=""
+                      />
+                    </svg>
                 </a>
               </div>
             </motion.div>

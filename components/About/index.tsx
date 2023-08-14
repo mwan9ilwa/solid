@@ -62,47 +62,25 @@ const About = () => {
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
                 <span className="bg-meta text-white text-metatitle inline-flex rounded-full py-1 px-4.5 mr-4 mb-4 uppercase ">
-                  New
+                  ABOUT US
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                Quest Technologies
               </h4>
-              <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                A Complete Solution for
-                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
-                  SaaS Startup
-                </span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
-              </p>
 
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                  <p className="text-black dark:text-white font-semibold text-metatitle2">
-                    01
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                    React 18, Next.js 13 and TypeScript
-                  </h5>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
-                </div>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                  <p className="text-black dark:text-white font-semibold text-metatitle2">
-                    02
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                    Fully Customizable
-                  </h5>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
-                </div>
-              </div>
+              <h4 className="text-grey dark:text-white text-2xl font-normal mb-5 pr-16">
+                <p>
+                  We are driven by the relentless pursuit of turning your
+                  aspirations into reality. Our journey began with a simple yet
+                  powerful idea: to transform your dreams into tangible
+                  achievements through innovation and collaboration.
+                </p>
+              </h4>
+              <h4 className="text-grey dark:text-white text-2xl font-normal mb-5 pr-16">
+                <p>
+                  Our team of passionate experts is committed to understanding
+                  your unique journey and partnering with you every step of the way.
+                </p>
+              </h4>
             </motion.div>
           </div>
         </div>
@@ -131,54 +109,25 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h4 className="text-black dark:text-white font-medium uppercase">
+              {/* <h4 className="text-black dark:text-white font-medium uppercase">
                 Launch Your SaaS Fast
-              </h4>
-              <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                Packed with All Essential
-                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg2 dark:before:bg-titlebgdark before:-z-1 ml-2.5">
-                  Integrations
-                </span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
-              </p>
-              <div>
-                <a
-                  href="#"
-                  className="flex items-center gap-2.5 text-black dark:text-white mt-7.5 hover:text-primary dark:hover:text-primary"
-                >
-                  <span className="hover:pr-2 duration-500">Know More</span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="dark:hidden"
-                  >
-                    <path
-                      d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-                      fill="currentColor"
-                    />
-                  </svg>
+              </h4> */}
 
-                  <svg
-                    className="hidden dark:block"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="none"
-                    stroke="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.4766 6.16664L6.00658 1.69664L7.18492 0.518311L13.6666 6.99998L7.18492 13.4816L6.00658 12.3033L10.4766 7.83331H0.333252V6.16664H10.4766Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
+              <h4 className="text-grey dark:text-white text-2xl font-normal mb-5 pr-16">
+                <p>
+                  Whether you're an entrepreneur with a groundbreaking concept,
+                  an organization seeking to revolutionize your industry, or an
+                  individual with a personal ambition, Quest is here to be your
+                  partner in the quest for progress.
+                </p>
+              </h4>
+              <h4 className="text-grey dark:text-white text-2xl font-normal mb-5 pr-16">
+                <p>
+                  Join us as we embark on this exciting journey together. Your
+                  quest ignites our passion, and together, we forge the path to
+                  innovation.
+                </p>
+              </h4>
             </motion.div>
             <motion.div
               variants={{

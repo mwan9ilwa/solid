@@ -9,7 +9,7 @@ export default function DocsPage() {
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4 lg:w-1/4">
-              <div className="sticky top-[74px] p-4 border border-white shadow-solid-4 rounded-lg  transition-all  dark:border-strokedark dark:bg-blacksection">
+              <div className="sticky top-[74px] p-4 bg-[#e9edf0] rounded-3xl transition-all dark:border-strokedark dark:bg-blacksection">
                 <ul className="space-y-2">
                   <SidebarLink />
                 </ul>
@@ -17,24 +17,72 @@ export default function DocsPage() {
             </div>
 
             <div className="w-full px-4 lg:w-3/4">
-              <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to Startup Documentation</h1>
+              <div className="blog-details blog-details-docs rounded-3xl bg-[#e9edf0] py-11 px-8 dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+                <h1>Our Team</h1>
 
-                <p className="text-base text-body-color dark:text-body-color-dark">
-                  This document serves as a simple template to showcase a sample
-                  layout and format. It is solely created for demonstration
-                  purposes and is not intended for any official use.
+                <p className="text-base text-body-color text-2xl font-normal dark:text-body-color-dark">
+                  Our team is united by a shared vision and unwavering passion
+                  for innovation. This common drive fuels our collaborative
+                  efforts to push boundaries, co-create transformative
+                  solutions, and bring our clients' aspiration to life.
                 </p>
-                <p className="text-base text-body-color dark:text-body-color-dark">
-                  Please visit:{" "}
-                  <b>
-                    <a href="https://nextjstemplates.com/docs">
-                      nextjstemplates.com/docs
-                    </a>
-                  </b>{" "}
-                  to check out the real docs, setup guide and even video
-                  instructions
-                </p>
+              
+
+                {/* Team Member Cards Section */}
+                <div className="flex flex-wrap -mx-4 mt-8">
+                  {/* Team Member 1 */}
+                  <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                      <img
+                        src="/images/blog/blog-02.png"
+                        alt="Team Member 1"
+                        className="w-full h-auto rounded-lg mb-4"
+                      />
+                      <h3 className="text-lg font-medium">Mwangilwa ZImba</h3>
+                      <p className="text-gray-500">CEO</p>
+                    </div>
+                  </div>
+
+                  {/* Repeat similar code for other team members */}
+                  {/* Team Member 2 */}
+                  <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                      <img
+                        src="/images/blog/blog-02.png"
+                        alt="Team Member 1"
+                        className="w-full h-auto rounded-lg mb-4"
+                      />
+                      <h3 className="text-lg font-medium">Nitesh Kumar</h3>
+                      <p className="text-gray-500">Software Dev</p>
+                    </div>
+                  </div>
+
+                  {/* Team Member 3 */}
+                  <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
+                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                      <img
+                        src="/images/blog/blog-02.png"
+                        alt="Team Member 1"
+                        className="w-full h-auto rounded-lg mb-4"
+                      />
+                      <h3 className="text-lg font-medium">Chileshe Kampa</h3>
+                      <p className="text-gray-500">IT Support</p>
+                    </div>
+                  </div>
+
+                  {/* Team Member 3 */}
+                  <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
+                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                      <img
+                        src="/images/blog/blog-02.png"
+                        alt="Team Member 1"
+                        className="w-full h-auto rounded-lg mb-4"
+                      />
+                      <h3 className="text-lg font-medium">Nixon Ndunda</h3>
+                      <p className="text-gray-500">IT Support</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

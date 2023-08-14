@@ -8,25 +8,25 @@ const SidebarLink = () => {
       <li className="block">
         <Link
           href={`/docs`}
-          className={`text-base py-2 px-3 rounded-sm flex w-full bg-stroke text-black dark:text-white dark:bg-blackho`}
+          className={`text-base py-2 px-3 mb-3 bg-[#ffffff] rounded-3xl flex w-full bg-stroke text-black dark:text-white dark:bg-blackho`}
         >
           Introduction
         </Link>
         <Link
           href={`/docs`}
-          className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white dark:bg-blackho`}
+          className={`text-base py-2 px-3 mb-3 bg-[#ffffff] rounded-3xl flex w-full text-black dark:text-white dark:bg-blackho`}
         >
           Bootstrap Template Guide
         </Link>
         <Link
           href={`/docs`}
-          className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white dark:bg-blackho`}
+          className={`text-base py-2 px-3 mb-3 bg-[#ffffff] rounded-3xl flex w-full text-black dark:text-white dark:bg-blackho`}
         >
           Style Guide
         </Link>
         <Link
           href={`/docs`}
-          className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white dark:bg-blackho`}
+          className={`text-base py-2 px-3 bg-[#ffffff] rounded-3xl flex w-full text-black dark:text-white dark:bg-blackho`}
         >
           Using Tailwind Components
         </Link>

@@ -4,44 +4,44 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "Cloud Solutions",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Leverage the scalability and innovation of Cloud to transform your business, driving agility and unlocking new possibilities.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "Software Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "From concept to execution, our software development expertise empowers you to bring your unique ideas to life, with tailor-made solutions that meet your specific needs.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    title: "Company Profiles",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Present your brand in a compelling light with meticulously crafted company profiles that communicate your values, achievements, and aspirations.",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    title: "Digital Marketing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Elevate your business' digital presence with our specialized Digital Marketing as a Service. We craft laser-focused strategies, leveraging data insights to amplify brand impact, engage audiences, and drive conversions. ",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Experience the art of user-centric design with our UX/UI Design services. We transform complex ideas into intuitive, visually captivating interfaces that resonate with your audience. ",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    title: "IT Support",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Rely on our responsive IT support services to ensure the smooth operation of your systems, resolving issues promptly and minimizing disruptions.",
   },
 ];
 

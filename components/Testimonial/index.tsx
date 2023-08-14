@@ -73,7 +73,7 @@ const Testimonial = () => {
               }}
             >
               <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
+                <div className="bg-[#e9edf0] rounded-3xl dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
@@ -99,7 +99,7 @@ const Testimonial = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
+                <div className="bg-[#e9edf0] rounded-3xl shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
@@ -125,7 +125,7 @@ const Testimonial = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
+                <div className="bg-[#e9edf0] rounded-3xl shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">

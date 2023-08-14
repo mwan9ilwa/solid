@@ -36,21 +36,21 @@ const Header = () => {
       }`}
     >
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 lg:flex items-center justify-between relative">
-        <div className="w-full lg:w-1/4 flex items-center justify-between">
+        <div className=" lg:w-1/4 flex items-center justify-between">
           <a href="/">
             <Image
               src="/images/logo/logo-dark.svg"
               alt="logo"
-              width={119.03}
+              width={80}
               height={30}
-              className="w-full hidden dark:block"
+              className=" hidden dark:block"
             />
             <Image
               src="/images/logo/logo-light.svg"
               alt="logo"
-              width={119.03}
+              width={80}
               height={30}
-              className="w-full dark:hidden"
+              className=" dark:hidden"
             />
           </a>
 
@@ -154,19 +154,12 @@ const Header = () => {
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
             <ThemeToggler />
 
-            <Link
-              href="https://github.com/NextJSTemplates/solid-nextjs"
-              className="text-waterloo text-regular font-medium hover:text-primary"
-            >
-            GitHub Repo 🌟
-            </Link>
-
-            <Link
-              href="https://nextjstemplates.com/templates/solid"
+            {/* <Link
+              href="https://github.com/mwan9ilwa/solid.git"
               className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
             >
-              Get Pro 🔥
-            </Link>
+            GitHub Repo 🌟
+            </Link> */}
           </div>
         </div>
       </div>

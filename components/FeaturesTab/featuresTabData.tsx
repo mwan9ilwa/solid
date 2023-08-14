@@ -3,25 +3,22 @@ import { FeatureTab } from "@/types/featureTab";
 const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Solid Has Neat & Clean User Interface.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
+    title: "We thrive on curiosity",
+    desc1: `Constantly exploring uncharted territories to uncover fresh insights and opportunities. Our dedication to pushing the boundaries of what's possible fuels our drive for discovery and growth.`,
     image: "/images/features/features-light-01.svg",
     imageDark: "/images/features/features-dark-01.svg",
   },
   {
     id: "tabTwo",
-    title: "Ready to Use Pages You Need for a SaaS Business.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
+    title: "We are a trusted partner",
+    desc1: `Working hand in hand with individuals, startups, enterprises, and communities to bring their visions to life. Our collaborative approach fosters a rich exchange of ideas and expertise, resulting in solutions that make a real impact.`,
     image: "/images/features/features-light-01.svg",
     imageDark: "/images/features/features-dark-01.svg",
   },
   {
     id: "tabThree",
-    title: "Functional Blog, DB, Auth and Many More",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
+    title: "As stewards of innovation ",
+    desc1: `We are committed to creating sustainable solutions that contribute to a brighter future. Our focus on lasting impact ensures that our work resonates through generations.`,
     image: "/images/features/features-light-01.svg",
     imageDark: "/images/features/features-dark-01.svg",
   }
