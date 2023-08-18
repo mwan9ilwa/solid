@@ -14,7 +14,7 @@ const Integration = () => {
             headerInfo={{
               title: `TECHNOLOGIES`,
               subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              description: `Experience data mastery without boundaries. Our solution lets you remotely manage your data using your favorite tools, ensuring control from anywhere, anytime.`,
             }}
           />
 
@@ -62,7 +62,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-07.svg"
+                  src="./images/brand/google-cloud.svg"
                   alt="Brand"
                 />
               </div>
@@ -109,7 +109,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-08.svg"
+                  src="./images/brand/firebase-icon.svg"
                   alt="Brand"
                 />
               </div>
@@ -158,7 +158,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-09.svg"
+                  src="./images/brand/google-icon.svg"
                   alt="Brand"
                 />
               </div>
@@ -226,7 +226,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-10.svg"
+                  src="./images/brand/azure.svg"
                   alt="Brand"
                 />
               </div>
@@ -275,7 +275,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-11.svg"
+                  src="./images/brand/microsoft-icon.svg"
                   alt="Brand"
                 />
               </div>
@@ -324,11 +324,154 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-12.svg"
+                  src="./images/brand/meta.svg"
                   alt="Brand"
                 />
               </div>
             </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            >
+              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/microsoft-365.svg"
+                  alt="Brand"
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            ></motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            >
+              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/digitalocean-icon.svg"
+                  alt="Brand"
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            >
+              <div className="bg-[#FFDB26] rounded-full w-[11px] h-[11px]"></div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            >
+              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/amazon_aws-icon.svg"
+                  alt="Brand"
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top w-1/6"
+            ></motion.div>
           </div>
         </div>
       </section>

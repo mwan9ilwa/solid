@@ -29,7 +29,7 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-medium mb-4 w-11/12">
-                Join With Us Today & Increase Your Productivity
+                Collaborate With Us Today & Increase Your Productivity
               </h2>
               <p>
                 Contact us to get more information about who we are and what we do.

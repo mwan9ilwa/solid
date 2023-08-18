@@ -97,13 +97,13 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`w-full lg:w-full h-0 lg:h-auto invisible lg:visible lg:flex items-center justify-between ${
+          className={`w-full lg:w-full h-0 lg:h-auto invisible lg:visible lg:flex items-center justify-between ml-50 ${
             navigationOpen &&
             "!visible bg-white dark:bg-blacksection shadow-solid-5 h-auto max-h-[400px] overflow-y-scroll rounded-md mt-4 p-7.5"
           }`}
         >
           <nav>
-            <ul className="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10">
+            <ul className="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-12">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
@@ -151,15 +151,15 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="flex items-center gap-6 mt-7 lg:mt-0">
+          <div className="flex items-center gap-5 mt-7 lg:mt-0">
             <ThemeToggler />
 
-            {/* <Link
-              href="https://github.com/mwan9ilwa/solid.git"
-              className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
+            <Link
+              href="https://mwangi.vercel.app/"
+              className="flex items-center justify-center hover:bg-primary ease-in-out duration-300 text-grey text-regular rounded-3xl py-2.5 px-7.5"
             >
-            GitHub Repo 🌟
-            </Link> */}
+            Mayhem
+            </Link>
           </div>
         </div>
       </div>

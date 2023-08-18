@@ -75,7 +75,7 @@ const Contact = () => {
                   aria-label="Call us"
                   className="inline-flex items-center gap-2.5 bg-primary hover:bg-blackho ease-in-out duration-300 dark:bg-primary font-medium text-white rounded-full px-6 py-3"
                 >
-                  Call Us
+                  Contact Us
                   <svg
                     className="fill-white"
                     width="14"
