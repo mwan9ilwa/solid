@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: ``,
               }}
             />
           </div>
@@ -77,9 +77,9 @@ const Testimonial = () => {
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Devid Smith
+                        Sam Mbale
                       </h4>
-                      <p>Founter @democompany</p>
+                      <p>Founter - Mpelembe</p>
                     </div>
                     <Image
                       width={60}

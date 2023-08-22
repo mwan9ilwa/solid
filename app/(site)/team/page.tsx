@@ -32,7 +32,7 @@ export default function TeamsPage() {
                 <div className="flex flex-wrap -mx-4 mt-8">
                   {/* Team Member 1 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
-                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
@@ -46,20 +46,20 @@ export default function TeamsPage() {
                   {/* Repeat similar code for other team members */}
                   {/* Team Member 2 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
-                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
                         className="w-full h-auto rounded-lg mb-4"
                       />
-                      <h3 className="text-lg font-medium">Nitesh Kumar</h3>
+                      <h3 className="text-lg text-gray-500 font-medium">Nitesh Kumar</h3>
                       <p className="text-gray-500">Software Dev</p>
                     </div>
                   </div>
 
                   {/* Team Member 3 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
-                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
@@ -72,7 +72,7 @@ export default function TeamsPage() {
 
                   {/* Team Member 3 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
-                    <div className="bg-white rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
