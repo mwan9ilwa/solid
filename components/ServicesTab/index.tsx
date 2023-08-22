@@ -127,12 +127,12 @@ const ServiceTab = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto max-w-c-1154"
           >
-            {servicesTabData.map((feature, key) => (
+            {servicesTabData.map((service, key) => (
               <div
-                className={feature.id === currentTab ? "block" : "hidden"}
+                className={service.id === currentTab ? "block" : "hidden"}
                 key={key}
               >
-                <ServicesTabItem featureTab={feature} />
+                <ServicesTabItem serviceTab={service} />
               </div>
             ))}
           </motion.div>

@@ -1,9 +1,9 @@
 import React from "react";
-import { FeatureTab } from "@/types/serviceTab";
+import { ServiceTab } from "@/types/serviceTab";
 import Image from "next/image";
 
-const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, desc1, image, imageDark } = featureTab;
+const ServicesTabItem = ({ serviceTab }: { serviceTab: ServiceTab }) => {
+  const { title, desc1, image, imageDark } = serviceTab;
 
   return (
     <>
@@ -28,4 +28,4 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
   );
 };
 
-export default FeaturesTabItem;
+export default ServicesTabItem;
