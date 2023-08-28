@@ -14,8 +14,8 @@ const Pricing = () => {
             <SectionHeader
               headerInfo={{
                 title: `PRICING PLANS`,
-                subtitle: `Simple Pricing`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                subtitle: `Sample Pricing`,
+                description: ``,
               }}
             />
           </div>
@@ -35,29 +35,29 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top md:w-[45%] lg:w-1/3 group relative bg-[#e9edf0] dark:bg-blacksection rounded-3xl dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5">
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
-                $10{" "}
+                $350{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  3 days delivery
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Small Pack
+                Standard
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Functional basic statics website.</p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                    Up to 3 pages
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    Content upload
                   </li>
-                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
                     Exclusive Support
                   </li>
-                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-                    Custom Branding Strategy
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Social media icons
                   </li>
                 </ul>
               </div>
@@ -88,29 +88,29 @@ const Pricing = () => {
               </div>
 
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
-                $59{" "}
+                $500{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  7 days delivery
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Medium Pack
+                Regular
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Functional custom Website in React, Gatsby or NextJS.</p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                    Up to 5 pages
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    Content upload
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
                     Exclusive Support
                   </li>
-                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-                    Custom Branding Strategy
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Hosting setup
                   </li>
                 </ul>
               </div>
@@ -137,29 +137,29 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top md:w-[45%] lg:w-1/3 group relative bg-[#e9edf0] dark:bg-blacksection rounded-3xl dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5">
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
-                $189{" "}
+                $1000{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  10 days delivery
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Large Pack
+                Premium
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Functional dynamic website in any PHP, Python, or JavaScript framework.</p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
-                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Up to 7 pages
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    E-commerce
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
                     Exclusive Support
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Custom Branding Strategy
+                    Speed optimization
                   </li>
                 </ul>
               </div>
