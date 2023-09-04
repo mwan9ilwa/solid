@@ -139,8 +139,8 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "hover:text-primary text-primary"
-                          : "hover:text-primary"
+                          ? "hover:text-primary text-primary font-bold"
+                          : "hover:text-primary font-bold"
                       }
                     >
                       {menuItem.title}
@@ -156,7 +156,7 @@ const Header = () => {
 
             <Link
               href="https://mwangi.vercel.app/"
-              className="flex items-center justify-center hover:bg-primary ease-in-out duration-300 text-grey text-regular rounded-3xl py-2.5 px-7.5"
+              className="flex items-center justify-center ease-in-out duration-300 text-grey hover:text-primary font-bold rounded-3xl py-2.5 px-7.5"
             >
             Mayhem
             </Link>

@@ -24,7 +24,7 @@ const SingleService = ({ service }: { service: Service }) => {
         whileInView="visible"
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="animate_top border border-white rounded-3xl p-7.5 xl:p-12.5 transition-all dark:hover:bg-hoverdark hover:bg-[#d0e1f2] dark:border-strokedark dark:bg-blacksection z-40 bg-[#e9edf0]"
+        className="animate_top  rounded-3xl p-7.5 xl:p-12.5 transition-all dark:hover:bg-[#424659] hover:bg-[#dfe1f9] dark:bg-blacksection z-40 bg-alabaster"
       >
         <div className="flex items-center justify-center rounded-xl bg-primary w-16 h-16 relative">
           <Image src={icon} width={36} height={36} alt="title" />

@@ -21,7 +21,7 @@ const Contact = () => {
       {/* <!-- ===== Contact Start ===== --> */}
       <section id="support" className="px-4 md:px-8 2xl:px-0">
         <div className="mx-auto max-w-c-1390 relative pt-10 lg:pt-15 xl:pt-20 px-7.5 lg:px-15 xl:px-20 overflow-hidden">
-          <div className="absolute -z-1 rounded-3xl left-0 top-0 w-full h-full bg-gradient-to-t from-[#e9edf0] to-[#e9edf0] dark:bg-gradient-to-t dark:from-[#333333] dark:to-[#333333]"></div>
+          <div className="absolute -z-1 rounded-3xl left-0 top-0 w-full h-full bg-alabaster dark:bg-blacksection"></div>
           <div className="absolute -z-1 bottom-[-255px] left-0 w-full h-full">
             <Image
               src="./images/shape/shape-dotted-light.svg"

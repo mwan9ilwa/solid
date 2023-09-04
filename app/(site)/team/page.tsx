@@ -9,7 +9,7 @@ export default function TeamsPage() {
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4 lg:w-1/4">
-              <div className="sticky top-[74px] p-4 bg-[#e9edf0] rounded-3xl transition-all dark:border-strokedark dark:bg-blacksection">
+              <div className="sticky top-[74px] p-4 bg-alabaster rounded-3xl transition-all dark:border-strokedark dark:bg-blacksection">
                 <ul className="space-y-2">
                   <SidebarLink />
                 </ul>
@@ -17,7 +17,7 @@ export default function TeamsPage() {
             </div>
 
             <div className="w-full px-4 lg:w-3/4">
-              <div className="blog-details blog-details-docs rounded-3xl bg-[#e9edf0] py-11 px-8 dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+              <div className="blog-details blog-details-docs rounded-3xl bg-alabaster py-11 px-8 dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
                 <h1>Our Team</h1>
 
                 <p className="text-base text-body-color text-2xl font-normal dark:text-body-color-dark">
@@ -32,7 +32,7 @@ export default function TeamsPage() {
                 <div className="flex flex-wrap -mx-4 mt-8">
                   {/* Team Member 1 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
-                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-black rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
@@ -46,7 +46,7 @@ export default function TeamsPage() {
                   {/* Repeat similar code for other team members */}
                   {/* Team Member 2 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
-                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-black rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
@@ -59,7 +59,7 @@ export default function TeamsPage() {
 
                   {/* Team Member 3 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
-                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-black rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"
@@ -72,7 +72,7 @@ export default function TeamsPage() {
 
                   {/* Team Member 3 */}
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-2">
-                    <div className="bg-white dark:bg-blackho rounded-3xl shadow-lg p-6">
+                    <div className="bg-white dark:bg-black rounded-3xl shadow-lg p-6">
                       <img
                         src="/images/blog/blog-02.png"
                         alt="Team Member 1"

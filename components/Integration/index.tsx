@@ -58,7 +58,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -105,7 +105,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -154,7 +154,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -222,7 +222,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -271,7 +271,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -320,7 +320,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -348,7 +348,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -395,7 +395,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
@@ -444,7 +444,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-3xl bg-[#e9edf0] dark:bg-btndark p-4.5">
+              <div className="inline-block rounded-3xl bg-alabaster dark:bg-blacksection p-4.5">
                 <Image
                   width={50}
                   height={50}
