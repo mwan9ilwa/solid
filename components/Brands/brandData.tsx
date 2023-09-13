@@ -12,22 +12,22 @@ const brandData: Brand[] = [
     id: 0.3,
     name: "Client",
     href: "#",
-    image: "/images/brand/brand-light-02.svg",
-    imageLight: "/images/brand/brand-dark-02.svg",
+    image: "/images/brand/montforan-light.svg",
+    imageLight: "/images/brand/montforan-light.svg",
   },
   {
     id: 0.4,
     name: "Client",
     href: "#",
-    image: "/images/brand/brand-light-03.svg",
-    imageLight: "/images/brand/brand-dark-03.svg",
+    image: "/images/brand/mpelembe-light.svg",
+    imageLight: "/images/brand/mpelembe-dark.svg",
   },
   {
     id: 0.5,
     name: "Client",
     href: "#",
-    image: "/images/brand/brand-light-04.svg",
-    imageLight: "/images/brand/brand-dark-04.svg",
+    image: "/images/brand/brand-light.svg",
+    imageLight: "/images/brand/brand-dark.svg",
   },
   {
     id: 0.6,
@@ -43,6 +43,7 @@ const brandData: Brand[] = [
     image: "/images/brand/brand-light-06.svg",
     imageLight: "/images/brand/brand-dark-06.svg",
   },
+  
 ];
 
 export default brandData;
